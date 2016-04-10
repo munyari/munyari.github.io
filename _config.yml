@@ -7,11 +7,11 @@
 
 # Site settings
 title: I Write What I Like
-email: your-email@domain.com
+# email: your-email@domain.com
 description: > # this means to ignore newlines until "baseurl:"
-  I write what I like
+  Personal blog of Panashe M. Fundira
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://yourdomain.com" # the base hostname & protocol for your site
+# url: "http://yourdomain.com" # the base hostname & protocol for your site
 github_username:  munyari
 timezone: America/New_York
 encoding: utf-8
