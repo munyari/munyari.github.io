@@ -89,3 +89,4 @@ titled after the [book by Steve Biko][biko].
 [biko]: http://www.amazon.com/Write-What-Like-Selected-Writings/dp/0226048977
 [middleman]: https://middlemanapp.com/
 [gh-jekyll]: https://help.github.com/articles/using-jekyll-as-a-static-site-generator-with-github-pages/
+[middleman-gh-pages]: https://github.com/edgecase/middleman-gh-pages
