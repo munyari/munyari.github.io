@@ -4,12 +4,22 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+Welcome to my blog! My name is Panashe Fundira, I'm from Harare, Zimbabwe, and
+I'm currently a junior at Manhattanville College. I'm majoring in
+Mathematics and Computer Science. I've written programs in a few languages, but
+Ruby's my current favorite. I'm mainly interested in cryptography and web
+development, but I'm fascinated by computer science and software engineering
+more broadly, and I think I've only begun to scratch the surface in that regard.
 
-You can find the source code for the Jekyll new theme at:
-{% include icon-github.html username="jglovier" %} /
-[jekyll-new](https://github.com/jglovier/jekyll-new)
+I'm currently working on my first "real" web app in Ruby on Rails and a research
+project in theoretical physics that will hopefully culminate in a publication
+(if only my high school physics teacher could see me now). I'm also trying to
+dream up some worthwhile projects for my senior theses.
 
-You can find the source code for Jekyll at
-{% include icon-github.html username="jekyll" %} /
-[jekyll](https://github.com/jekyll/jekyll)
+This summer I will be at the [Recurse Center][recurse] in New York.
+
+Apart from programming, I enjoy rugby, good beer (nothing like a great IPA),
+juicy steaks, and strength sports. My [wilks score][wilks] is 319.
+
+[wilks]: https://en.wikipedia.org/wiki/Wilks_score
+[recurse]: https://recurse.com

@@ -9,7 +9,7 @@
 title: I Write What I Like
 # email: your-email@domain.com
 description: > # this means to ignore newlines until "baseurl:"
-  Personal blog of Panashe M. Fundira
+  The personal musings of Panashe M. Fundira
 baseurl: "" # the subpath of your site, e.g. /blog
 # url: "http://yourdomain.com" # the base hostname & protocol for your site
 github_username:  munyari
