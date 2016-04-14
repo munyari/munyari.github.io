@@ -19,7 +19,7 @@ dream up some worthwhile projects for my senior theses.
 This summer I will be at the [Recurse Center][recurse] in New York.
 
 Apart from programming, I enjoy rugby, good beer (nothing like a great IPA),
-juicy steaks, and strength sports. My [wilks score][wilks] is 319.
+juicy steaks, and strength sports. My [wilks score][wilks] is ~~319~~ 324.
 
 [wilks]: https://en.wikipedia.org/wiki/Wilks_score
 [recurse]: https://recurse.com
