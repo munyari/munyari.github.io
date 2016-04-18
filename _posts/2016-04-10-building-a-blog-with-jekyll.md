@@ -2,7 +2,7 @@
 layout: post
 title: Building a Blog With Jekyll
 date:   2016-04-10 12:38:00 -0400
-categories: jekyll
+categories: jekyll software
 ---
 
 Let me first take this opportunity to utter that famous computer science phrase,
