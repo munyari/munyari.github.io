@@ -86,7 +86,7 @@ titled after the [book by Steve Biko][biko].
 [gitlab-middleman]: https://gitlab.com/pages/middleman
 [blog-gem]: https://github.com/middleman/middleman-blog
 [rtfm]: https://en.wikipedia.org/wiki/RTFM
-[biko]: http://www.amazon.com/Write-What-Like-Selected-Writings/dp/0226048977
+[biko]: https://www.amazon.com/Write-What-Like-Selected-Writings/dp/0226048977
 [middleman]: https://middlemanapp.com/
 [gh-jekyll]: https://help.github.com/articles/using-jekyll-as-a-static-site-generator-with-github-pages/
 [middleman-gh-pages]: https://github.com/edgecase/middleman-gh-pages
