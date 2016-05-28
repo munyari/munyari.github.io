@@ -5,19 +5,19 @@ date: 2016-05-27 21:02:09 -0400
 categories: recurse-center
 ---
 
-I've just completed my first week at the [Recurse Center][recurse]!
-It's gone by so fast, and I'm absolutely loving it so far. This is is a very
-carefuly deesigned environment for learning, and I'm surrounded by passionate
-and brilliant people. I've learned so much already, and I'm excited for the
-next 11 weeks.
+I've just completed my first week at the [Recurse Center][recurse]! It's gone
+by so fast, and I'm absolutely loving it so far. This is is a very carefuly
+deesigned environment for learning, and I'm surrounded by passionate and
+brilliant people. I've learned so much already, and I'm excited for the next 11
+weeks.
 
 [recurse]: https://recurse.com
 
 This being the end of my first week, reflection seems apt. As you can see from
-my [Wakatime][wakatime], I wrote about half of my code in
-Ruby (Ruby + ERB) and about a third of it in Javascript, which is pretty
-ironic, because I only have a cursory knowledge of the latter (I also used
-Emacs this week, but I only have Wakatime installed in Neovim).
+my [Wakatime][wakatime], I wrote about half of my code in Ruby (Ruby + ERB) and
+about a third of it in Javascript, which is pretty ironic, because I only have
+a cursory knowledge of the latter (I also used Emacs this week, but I only have
+Wakatime installed in Neovim).
 
 [wakatime]: https://wakatime.com/@fundirap
 
@@ -34,9 +34,37 @@ impressed by the work of other Recursers. The presentation of Emily Xie led me
 to explore my interest in algorithmic art. Javascript seemed like a good
 natural choice in a time where so much so media is delivered in browser, I got
 to chatting with Charlie Brookhouse this morning, who suggested I look into
-[p5.js][p5-js]. I've started playing around with it, and I
-accidentally made a Spiernski triangle! You can see my code
-[here](https://github.com/munyari/fractal-fun/blob/b3c56b01fdd958ec9dffdb705fa378695fcb6121/empty-example/sketch.js).
+[p5.js][p5-js]. I've started playing around with it, and I accidentally made a
+Spiernski triangle using only straight lines instead of filled triangles. You
+can see my code below (humbly dubbed the `panashe_fractal`):
+
+```ruby
+function setup() {
+  var container = document.getElementById("myContainer");
+  var myCanvas = createCanvas(600,600);
+  myCanvas.parent(container);
+}
+
+function draw() {
+  background('white');
+  stroke(0);
+  noFill();
+  panashe_fractal(width/2,height/2,width/4,height/4);
+}
+
+function panashe_fractal(x, y,xlen, ylen) {
+  line(x-xlen/2,y,x+xlen/2,y);
+  line(x-xlen,y-ylen/2,x-xlen,y+ylen/2);
+  line(x+xlen,y-ylen/2,x+xlen,y+ylen/2);
+  if (xlen > 2) {
+    panashe_fractal(x+xlen/2,y,xlen/2,ylen/2);
+    panashe_fractal(x-xlen/2,y,xlen/2,ylen/2);
+    panashe_fractal(x+xlen/2,y,xlen/2,ylen/2);
+    panashe_fractal(x,y-ylen/2,xlen/2,ylen/2);
+  }
+}
+```
+
 <a href="{{ site.url }}/assets/sierpinski.png"><img src="{{ site.url
 }}/assets/sierpinski.png" alt="Sierpinski gadget" /></a>
 
