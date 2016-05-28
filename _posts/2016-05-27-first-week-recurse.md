@@ -5,34 +5,42 @@ date: 2016-05-27 21:02:09 -0400
 categories: recurse-center
 ---
 
-I've just completed my first week at the [Recurse Center](https://recurse.com)!
+I've just completed my first week at the [Recurse Center][recurse]!
 It's gone by so fast, and I'm absolutely loving it so far. This is is a very
 carefuly deesigned environment for learning, and I'm surrounded by passionate
 and brilliant people. I've learned so much already, and I'm excited for the
 next 11 weeks.
 
+[recurse]: https://recurse.com
+
 This being the end of my first week, reflection seems apt. As you can see from
-my [Wakatime](https://wakatime.com/@fundirap), I wrote about half of my code in
+my [Wakatime][wakatime], I wrote about half of my code in
 Ruby (Ruby + ERB) and about a third of it in Javascript, which is pretty
 ironic, because I only have a cursory knowledge of the latter (I also used
 Emacs this week, but I only have Wakatime installed in Neovim).
 
+[wakatime]: https://wakatime.com/@fundirap
+
 I've spent a lot of time working on the [Ruby on Rails
-Tutorial](https://railstutorial.org/book) by Michael Hartl, and I'm glad to be
-almost done with that. In the latter part of this week, I worked on a
-cryptography lab from Stanford CS255, presented to the Recursers by Frank Wang,
-which challenged us to build a library for a password manager in Javascript.
+Tutorial][rails-tutorial] by Michael Hartl, and I'm glad to be almost done with
+that. In the latter part of this week, I worked on a cryptography lab from
+Stanford CS255, presented to the Recursers by Frank Wang, which challenged us
+to build a library for a password manager in Javascript.
+
+[rails-tutorial]: https://railstutorial.org/book
 
 Last night was the first round of presentations for our batch. I was very
 impressed by the work of other Recursers. The presentation of Emily Xie led me
 to explore my interest in algorithmic art. Javascript seemed like a good
 natural choice in a time where so much so media is delivered in browser, I got
 to chatting with Charlie Brookhouse this morning, who suggested I look into
-[p5.js](https://p5js.org). I've started playing around with it, and I
+[p5.js][p5-js]. I've started playing around with it, and I
 accidentally made a Spiernski triangle! You can see my code
 [here](https://github.com/munyari/fractal-fun/blob/b3c56b01fdd958ec9dffdb705fa378695fcb6121/empty-example/sketch.js).
 <a href="{{ site.url }}/assets/sierpinski.png"><img src="{{ site.url
 }}/assets/sierpinski.png" alt="Sierpinski gadget" /></a>
+
+[p5-js]: https://p5js.org
 
 I spent most of my time here today (Friday) working on algorithmic
 whiteboarding (interview preperation). I was prompted to produce an algorithm
@@ -55,9 +63,11 @@ will be better able to plan my time as I become more settled.
 Next week, I hope to be done with the Ruby on Rails tutorial, and be able to
 build a good web app (such as the workout tracker I've been working on) with
 the framework. I also hope to complete the password manager library for Frank's
-crypto lab, and do some work on some crypto pals[link] problems. My other goals
-for the week include generating some sexy algorithmic art with p5.js, and get
-to hello world level in Rust.
+crypto lab, and do some work on some [crypto pals][crypto-pals] problems. My
+other goals for the week include generating some sexy algorithmic art with
+p5.js, and get to hello world level in Rust.
+
+[crypto-pals]: http://cryptopals.com
 
 There are many things that I'm excited to do and work on in the near future.
 I'd very much like to learn Haskell. Nabeil Hassein's enthusiasm for Idris
@@ -70,3 +80,4 @@ Ultimately, I'd be happy if I can write a small Unix shell.
 On a non-Recurse/programming note, I need to get back into the gym ASAP. The
 past three weeks have been rather tumultuous, so I hope I can finally put that
 all behind me and resume my work towards my strength goals.
+
