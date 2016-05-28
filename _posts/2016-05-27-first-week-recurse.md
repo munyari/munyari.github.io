@@ -38,7 +38,7 @@ to chatting with Charlie Brookhouse this morning, who suggested I look into
 Spiernski triangle using only straight lines instead of filled triangles. You
 can see my code below (humbly dubbed the `panashe_fractal`):
 
-```ruby
+```javascript
 function setup() {
   var container = document.getElementById("myContainer");
   var myCanvas = createCanvas(600,600);
