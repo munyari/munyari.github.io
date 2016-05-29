@@ -7,7 +7,7 @@ categories: recurse-center
 
 I've just completed my first week at the [Recurse Center][recurse]! It's gone
 by so fast, and I'm absolutely loving it so far. This is is a very carefuly
-deesigned environment for learning, and I'm surrounded by passionate and
+designed environment for learning, and I'm surrounded by passionate and
 brilliant people. I've learned so much already, and I'm excited for the next 11
 weeks.
 
