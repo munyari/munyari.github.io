@@ -16,16 +16,17 @@
             </a>
         {% endif %}
 
+        {% if site.author.stackoverflow %}
+            <a href="https://stackoverflow.com/users/{{ site.author.stackoverflow }}" class="social-links__entry" target="_blank">
+                <i class="fa fa-stack-overflow"></i>
+            </a>
+        {% endif %}
+
         {% if site.author.github %}
             <a href="https://github.com/{{ site.author.github }}" class="social-links__entry" target="_blank">
                 <i class="fa fa-github"></i>
             </a>
         {% endif %}
 
-        {% if site.author.twitter %}
-            <a href="https://twitter.com/{{ site.author.twitter }}" class="social-links__entry" target="_blank">
-                <i class="fa fa-twitter"></i>
-            </a>
-        {% endif %}
     </ul>
 </header>
