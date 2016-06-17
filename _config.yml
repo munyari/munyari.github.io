@@ -11,7 +11,8 @@ title: I Write What I Like
 description: > # this means to ignore newlines until "baseurl:"
   The personal musings of Panashe M. Fundira
 baseurl: "" # the subpath of your site, e.g. /blog
-# url: "http://yourdomain.com" # the base hostname & protocol for your site
+url: https://panashefundira.me # the base hostname & protocol for your site
+enforce_ssl: panashefundira.me
 github_username:  munyari
 timezone: America/New_York
 encoding: utf-8
