@@ -111,7 +111,7 @@ public String getLargest(String s) {
   char max = '`'; // 1 less than 'a', similar to using -1 for non-negative ints
   for (int i = s.length() - 1; i >= 0; i--) {
     char c = s.charAt(i);
-    if (c > max) {
+    if (c >= max) {
       max = c;
       sb.insert(0, c);
     }
