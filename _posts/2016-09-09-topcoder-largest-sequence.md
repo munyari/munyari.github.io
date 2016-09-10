@@ -20,23 +20,22 @@ the problems that I solved recently. Here's the statement of the problem:
 How does one go about finding a solution to such a problem? An efficient and
 correct solution was not immediately obvious to me. An approach I find commonly
 useful is to begin thinking about the brute-force solution, and then try to
-optimize away the repeated work. In this case, the brute force solution would
+optimize away the repeated work. In this case, the brute-force solution would
 be to generate all of the subsequences of the string, and then compare each of
-these to find the largest. The set of all subsequences is
-[isomporphic][isomporhism] to the power set (technically the power
-[multiset][multiset] since the same character may appear multiple times). This
-runs in \\(O(2^n)\\) time, since the power set of a set with \\(n\\) elements
-has \\(2^n\\) elements.  If you're familiar with asymptotic notation, you will
-recognize that this is unacceptably slow.  Further, I don't see a way to work
-from the brute-force solution to a more efficient solution.
-
-[multiset]: https://en.wikipedia.org/wiki/Multiset
-[isomporhism]: https://en.wikipedia.org/wiki/Isomorphism
+these to find the largest. There are \\(2^n\\) possible subsequences, so the
+brute-force solution would run in \\(O(2^n)\\) time. If you're familiar with
+asymptotic notation, you will recognize that this is unacceptably slow.
+Further, I don't see a way to work from the brute-force solution to a more
+efficient solution.
 
 Let's try a different approach: what information can we glean about the
-solution from the problem statement? Well, if you think about, the first
-character of the solution is the largest character in the string. Some further
-analysis makes it clear that the second letter of the result is the largest
+solution from the problem statement? It turns out that the first character of
+the solution *must be* the largest character in the string. To understand why
+this is, think about any two subsequences such that the first character of one
+subsequence is the largest character in the string, and the first character of
+the second subsequence is any other character in the string. The first
+subsequence is always lexicographically larger than the second. Some further
+analysis makes it clear that the second letter of the solution is the largest
 letter in the substring between the first letter we just found and the end of
 the input string. In other words, we have a recurrence:
 
