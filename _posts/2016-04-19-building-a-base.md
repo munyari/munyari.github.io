@@ -3,6 +3,9 @@ layout: post
 title: Building a Base With Hypertrophy Work
 date: 2016-04-19 14:12:25 -0400
 categories: lifting
+tags:
+  - lifting
+  - not-programming
 ---
 
 It's almost summer time and I just got done testing my maxes (455 deadlift, 435
