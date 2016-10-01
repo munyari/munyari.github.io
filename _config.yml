@@ -35,3 +35,6 @@ exclude: ["README.md", "README.html"]
 # Build settings
 highlighter: null
 markdown: kramdown
+
+gems:
+  - octopress-debugger
