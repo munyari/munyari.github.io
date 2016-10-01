@@ -23,3 +23,12 @@ juicy steaks, and strength sports. My [wilks score][wilks] is ~~319~~ 324.
 
 [wilks]: https://en.wikipedia.org/wiki/Wilks_score
 [recurse]: https://recurse.com
+
+You can contact me at <a href="contact@panashefundira.me">contact@panashefundira.me</a>.
+My PGP key fingerprint is:
+
+```text
+E388 6E0E 25A0 062E 0E84  C37F ABD6 E90F 51BF 74B5
+```
+
+if you'd like to encrypt your message.
