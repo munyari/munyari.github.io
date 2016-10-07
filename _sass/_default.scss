@@ -15,7 +15,7 @@ a {
     }
 }
 
-p {
+p, ul {
     font-size: 20px;
     line-height: 32px;
 }
@@ -207,6 +207,7 @@ strong {
   margin: 0;
   padding: 0;
   overflow: hidden;
+  font-size: 16px;
 
   li {
     float: left;
